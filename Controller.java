@@ -8,7 +8,6 @@ class Controller {
     }
 
     public StudyGroup formStudyGroup(Teacher teacher, List<Student> students) {
-        // Получаем список студентов и преподавателя и передаем их в сервис для формирования учебной группы
         return studyGroupService.createStudyGroup(teacher, students);
     }
 }

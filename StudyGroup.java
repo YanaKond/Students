@@ -9,7 +9,6 @@ class StudyGroup {
         this.students = students;
     }
 
-    // Геттеры для преподавателя и списка студентов
     public Teacher getTeacher() {
         return teacher;
     }
